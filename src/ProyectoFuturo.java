@@ -1,5 +1,5 @@
 public class ProyectoFuturo {
-public static String HorasEstudio(String nombre, int asignaturas, int horasSemana){
+private static String HorasEstudio(String nombre, int asignaturas, int horasSemana){
     System.out.println("Estudiante : " + nombre);
     if (horasSemana==asignaturas){
         return "Bien. Pero una hora de estudio para cada módulo puede ser insuficiente.";
